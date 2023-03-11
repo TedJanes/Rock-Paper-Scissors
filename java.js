@@ -1,18 +1,19 @@
 // collects user's choice of rock, paper or scissors but is cas sensitive on the answer
 function question() {
-   let choice = prompt('Rock, Paper, or Scissors?')
+    let response
+    let choice = prompt('Rock, Paper, or Scissors?')
     if ('rock') {
-        choice = 'You have chosen rock'
+    response = 'You have chosen rock'
   } else if ('paper') {
-        choice = 'You have chosen paper'
+    response = 'You have chosen paper'
 } else if ('scissors') {
-        choice = 'You have chosen Scissors'
+    response = 'You have chosen Scissors'
     }
     else {
-        choice = 'Invalid answer: please choose Rock, Paper, or Scissors.'
+    response = 'Invalid answer: please choose Rock, Paper, or Scissors.'
     } 
-    return choice
+    return response
 }
-question(choice)
+question(response)
 //I dont think choice is getting saved as an answer
-console.log(choice)
+console.log(response)
