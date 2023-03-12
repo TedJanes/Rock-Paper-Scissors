@@ -23,9 +23,9 @@ function question() {
 function compChoice() {//+
     return Math.floor(Math.random * 2)
 }
-function duel(user, comp) {
-    return user > comp ? alert('I am defeated') 
-    : user == comp ? alert('Fuck a tie, we go again')//needs fixed
-    : user < comp ? alert('I am victorious'): console.log('mark has smol pp')
+//function duel(user, comp) {
+    //return user > comp ? alert('I am defeated') 
+    //: user == comp ? alert('Fuck a tie, we go again')//needs fixed
+    //: user < comp ? alert('I am victorious'): console.log('mark has smol pp')
     
 }
